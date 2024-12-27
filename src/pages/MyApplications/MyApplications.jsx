@@ -10,12 +10,12 @@ const MyApplications = () => {
 
   useEffect(() => {
     // axios
-    //     .get(`http://localhost:5000/job-application?email=${user.email}`, {
+    //     .get(`https://job-portal-server-for-recruiter-part3-red.vercel.app/job-application?email=${user.email}`, {
     //     withCredentials: true,
     //   })
     //   .then((res) => console.log(setJobs(res.data)));
     // regular fetch
-    // fetch(`http://localhost:5000/job-application?email=${user.email}`)
+    // fetch(`https://job-portal-server-for-recruiter-part3-red.vercel.app/job-application?email=${user.email}`)
     //     .then(res => res.json())
     //     .then(data => setJobs(data))
 
